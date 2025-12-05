@@ -1,9 +1,9 @@
 ---
 title: Assembly Guide
-description: Step-by-step instructions for assembling your BlinQR device.
+description: Step-by-step instructions for assembling your blinqr device.
 ---
 
-This guide walks you through assembling your BlinQR device on a breadboard. Once you've verified everything works, you can move to a more permanent solution.
+This guide walks you through assembling your blinqr device on a breadboard. Once you've verified everything works, you can move to a more permanent solution.
 
 ## Before You Start
 

@@ -1,9 +1,9 @@
 ---
 title: Hardware Requirements
-description: Components needed to build a BlinQR device.
+description: Components needed to build a blinqr device.
 ---
 
-This page lists all the components you'll need to build your own BlinQR reminder box.
+This page lists all the components you'll need to build your own blinqr reminder box.
 
 ## Required Components
 

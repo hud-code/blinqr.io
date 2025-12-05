@@ -1,14 +1,14 @@
 ---
 title: Introduction
-description: Learn what BlinQR is and how it can help you manage daily reminders.
+description: Learn what blinqr is and how it can help you manage daily reminders.
 ---
 
-BlinQR is an open-source reminder system that combines physical hardware feedback with smartphone connectivity. It's designed to help you remember daily tasks like taking medication, drinking water, walking the dog, or any other recurring activity.
+blinqr is an open-source reminder system that combines physical hardware feedback with smartphone connectivity. It's designed to help you remember daily tasks like taking medication, drinking water, walking the dog, or any other recurring activity.
 
 ## How It Works
 
 1. **Configure reminders** in the companion mobile app
-2. **At scheduled times**, the corresponding LED lights up on your BlinQR device
+2. **At scheduled times**, the corresponding LED lights up on your blinqr device
 3. **Press the button** next to the LED to acknowledge and dismiss the reminder
 4. The app tracks your acknowledgments and can provide insights over time
 
@@ -16,7 +16,7 @@ BlinQR is an open-source reminder system that combines physical hardware feedbac
 
 ### The Device (ESP32)
 
-The BlinQR device is built on an ESP32 microcontroller and includes:
+The blinqr device is built on an ESP32 microcontroller and includes:
 
 - **5 LEDs** - Visual indicators for each reminder slot
 - **5 Buttons** - Physical buttons to acknowledge reminders
@@ -40,7 +40,7 @@ The device and app communicate via **Bluetooth Low Energy (BLE)**. The app is th
 
 This architecture keeps the firmware simple and allows for rich features in the app without firmware updates.
 
-## Why BlinQR?
+## Why blinqr?
 
 - **Physical feedback** - Unlike phone notifications that are easy to ignore, a glowing LED on your desk is a persistent, gentle reminder
 - **Tactile acknowledgment** - Pressing a physical button creates a more deliberate "I did it" moment
@@ -50,7 +50,7 @@ This architecture keeps the firmware simple and allows for rich features in the 
 
 ## Next Steps
 
-Ready to build your own BlinQR device?
+Ready to build your own blinqr device?
 
 1. Check the [Hardware Requirements](/getting-started/hardware/) to see what you need
 2. Follow the [Assembly Guide](/getting-started/assembly/) to put it together

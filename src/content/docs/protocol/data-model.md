@@ -1,13 +1,13 @@
 ---
 title: Data Model
-description: Specification for the BlinQR reminder slot data model.
+description: Specification for the blinqr reminder slot data model.
 ---
 
-This document describes the data model used by the BlinQR system for managing reminder slots.
+This document describes the data model used by the blinqr system for managing reminder slots.
 
 ## Overview
 
-BlinQR manages exactly **5 reminder slots**. Each slot represents an independent daily reminder that can be configured through the mobile app.
+blinqr manages exactly **5 reminder slots**. Each slot represents an independent daily reminder that can be configured through the mobile app.
 
 ## ReminderSlot
 

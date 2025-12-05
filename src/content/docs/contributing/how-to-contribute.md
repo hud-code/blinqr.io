@@ -1,9 +1,9 @@
 ---
 title: How to Contribute
-description: Guidelines for contributing to the BlinQR project.
+description: Guidelines for contributing to the blinqr project.
 ---
 
-Thank you for your interest in contributing to BlinQR! This guide will help you get started.
+Thank you for your interest in contributing to blinqr! This guide will help you get started.
 
 ## Ways to Contribute
 
@@ -232,5 +232,5 @@ By contributing, you agree that your contributions will be licensed under the sa
 
 ---
 
-Thank you for helping make BlinQR better! 🎉
+Thank you for helping make blinqr better! 🎉
 

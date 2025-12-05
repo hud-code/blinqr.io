@@ -1,9 +1,9 @@
 ---
 title: Building the Firmware
-description: How to compile the BlinQR firmware using PlatformIO.
+description: How to compile the blinqr firmware using PlatformIO.
 ---
 
-This guide shows you how to build the BlinQR firmware from source using PlatformIO.
+This guide shows you how to build the blinqr firmware from source using PlatformIO.
 
 ## Prerequisites
 
@@ -102,7 +102,7 @@ Edit `include/hw/HwPins.h` to change GPIO pins:
 Edit `include/ble/ReminderBleServer.h`:
 
 ```cpp
-#define DEVICE_NAME "BlinQR Box"  // Change to your preferred name
+#define DEVICE_NAME "blinqr Box"  // Change to your preferred name
 ```
 
 ## Troubleshooting

@@ -1,6 +1,6 @@
 ---
 title: Flashing the Firmware
-description: How to upload the BlinQR firmware to your ESP32.
+description: How to upload the blinqr firmware to your ESP32.
 ---
 
 This guide explains how to flash (upload) the compiled firmware to your ESP32 device.
@@ -77,7 +77,7 @@ Or use the VS Code PlatformIO Serial Monitor.
 
 ```
 =================================
-BlinQR Reminder Box - Starting...
+blinqr Reminder Box - Starting...
 =================================
 
 [Main] Initializing hardware...
@@ -149,6 +149,6 @@ After successfully flashing:
 
 1. Open the mobile app
 2. Go to the Device tab
-3. Tap "Connect" to pair with your BlinQR device
+3. Tap "Connect" to pair with your blinqr device
 4. Test LEDs and buttons using the simulator (in dev mode) or scheduled reminders
 

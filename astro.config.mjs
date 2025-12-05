@@ -7,7 +7,7 @@ export default defineConfig({
 	site: 'https://blinqr.io',
 	integrations: [
 		starlight({
-			title: 'BlinQR',
+			title: 'blinqr',
 			description: 'Open-source reminder box with BLE connectivity',
 			social: [
 				{ icon: 'github', label: 'Firmware', href: 'https://github.com/hud-code/blinqr-firmware' },

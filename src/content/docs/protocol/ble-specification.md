@@ -1,13 +1,13 @@
 ---
 title: BLE Specification
-description: Technical specification for the BlinQR Bluetooth Low Energy protocol.
+description: Technical specification for the blinqr Bluetooth Low Energy protocol.
 ---
 
-This document specifies the Bluetooth Low Energy (BLE) GATT service used for communication between the BlinQR device and companion mobile app.
+This document specifies the Bluetooth Low Energy (BLE) GATT service used for communication between the blinqr device and companion mobile app.
 
 ## Overview
 
-The BlinQR device operates as a BLE **peripheral** (server). The mobile app acts as a **central** (client) that connects to the device.
+The blinqr device operates as a BLE **peripheral** (server). The mobile app acts as a **central** (client) that connects to the device.
 
 The device exposes a single GATT service with two characteristics:
 - **reminder_state**: App writes LED mask to device
@@ -99,7 +99,7 @@ Enable notifications: Write 0x0100 to CCCD (Client Characteristic Configuration 
        │                                       │
        │─────── Scan for devices ─────────────>│
        │                                       │
-       │<─────── Advertise "BlinQR Box" ───────│
+       │<─────── Advertise "blinqr Box" ───────│
        │                                       │
        │─────── Connect ──────────────────────>│
        │                                       │

@@ -1,9 +1,9 @@
 ---
 title: Firmware Customization
-description: How to customize the BlinQR firmware for your needs.
+description: How to customize the blinqr firmware for your needs.
 ---
 
-The BlinQR firmware is designed to be easily customizable. This guide covers common modifications.
+The blinqr firmware is designed to be easily customizable. This guide covers common modifications.
 
 ## Changing GPIO Pins
 
@@ -82,7 +82,7 @@ Remove the `INPUT_PULLUP` and add external pull-down resistors.
 Edit `include/ble/ReminderBleServer.h`:
 
 ```cpp
-#define DEVICE_NAME "My Custom BlinQR"
+#define DEVICE_NAME "My Custom blinqr"
 ```
 
 ### UUIDs
@@ -149,12 +149,12 @@ int HwController::pollButtons() {
 
 ### Multiple Devices
 
-To run multiple BlinQR devices, give each a unique name:
+To run multiple blinqr devices, give each a unique name:
 
 ```cpp
-#define DEVICE_NAME "BlinQR Kitchen"
+#define DEVICE_NAME "blinqr Kitchen"
 // or
-#define DEVICE_NAME "BlinQR Office"
+#define DEVICE_NAME "blinqr Office"
 ```
 
 ## Building Custom Versions
