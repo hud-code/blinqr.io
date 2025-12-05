@@ -18,8 +18,16 @@ export default defineConfig({
 					label: 'Getting Started',
 					items: [
 						{ label: 'Introduction', slug: 'getting-started/introduction' },
-						{ label: 'Hardware Requirements', slug: 'getting-started/hardware' },
-						{ label: 'Assembly Guide', slug: 'getting-started/assembly' },
+					],
+				},
+				{
+					label: 'Build Guide',
+					items: [
+						{ label: 'Overview', slug: 'build/index' },
+						{ label: 'Bill of Materials', slug: 'build/bom' },
+						{ label: 'Wiring Diagram', slug: 'build/wiring' },
+						{ label: '3D Printing', slug: 'build/3d-printing' },
+						{ label: 'Final Assembly', slug: 'build/assembly' },
 					],
 				},
 				{

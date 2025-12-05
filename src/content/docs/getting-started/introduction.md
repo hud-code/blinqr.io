@@ -52,8 +52,8 @@ This architecture keeps the firmware simple and allows for rich features in the 
 
 Ready to build your own blinqr device?
 
-1. Check the [Hardware Requirements](/getting-started/hardware/) to see what you need
-2. Follow the [Assembly Guide](/getting-started/assembly/) to put it together
-3. [Build and flash](/firmware/building/) the firmware
+1. Check the [Bill of Materials](/build/bom/) to see what you need
+2. Follow the [Build Guide](/build/) for wiring, 3D printing, and assembly
+3. [Flash the firmware](/firmware/flashing/) to your ESP32
 4. Download the app and start using it!
 
