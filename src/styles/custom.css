@@ -1,0 +1,45 @@
+/* BlinQR Custom Theme */
+
+:root {
+	--sl-color-accent-low: #0a3d31;
+	--sl-color-accent: #00d4aa;
+	--sl-color-accent-high: #7dffd8;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #eceef2;
+	--sl-color-gray-2: #c0c2c7;
+	--sl-color-gray-3: #888b96;
+	--sl-color-gray-4: #545861;
+	--sl-color-gray-5: #353841;
+	--sl-color-gray-6: #24272f;
+	--sl-color-black: #0a0a0f;
+}
+
+:root[data-theme='dark'] {
+	--sl-color-accent-low: #0a3d31;
+	--sl-color-accent: #00d4aa;
+	--sl-color-accent-high: #7dffd8;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #eceef2;
+	--sl-color-gray-2: #c0c2c7;
+	--sl-color-gray-3: #888b96;
+	--sl-color-gray-4: #545861;
+	--sl-color-gray-5: #353841;
+	--sl-color-gray-6: #141419;
+	--sl-color-black: #0a0a0f;
+}
+
+/* Hero styling */
+.hero {
+	background: linear-gradient(135deg, var(--sl-color-black) 0%, #0a1a15 100%);
+}
+
+/* Code blocks */
+.expressive-code pre {
+	border: 1px solid var(--sl-color-gray-5);
+}
+
+/* Links */
+a:hover {
+	color: var(--sl-color-accent-high);
+}
+

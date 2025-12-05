@@ -1,0 +1,57 @@
+---
+title: BlinQR
+description: Open-source reminder box with BLE connectivity
+template: splash
+hero:
+  tagline: A customizable reminder system with physical buttons and LED indicators, powered by ESP32 and controlled via Bluetooth.
+  actions:
+    - text: Get Started
+      link: /getting-started/introduction/
+      icon: right-arrow
+    - text: View on GitHub
+      link: https://github.com/hud-code/blinqr-firmware
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What is BlinQR?
+
+BlinQR is an open-source reminder device that helps you stay on top of daily tasks. It features 5 programmable reminder slots, each with its own LED and physical button for acknowledgment.
+
+<CardGrid stagger>
+	<Card title="5 Reminder Slots" icon="list-format">
+		Configure up to 5 independent reminders with custom names, icons, and schedules.
+	</Card>
+	<Card title="Physical Feedback" icon="approve-check">
+		LEDs light up when reminders fire. Press the corresponding button to acknowledge.
+	</Card>
+	<Card title="BLE Connected" icon="puzzle">
+		Connects to a companion mobile app via Bluetooth Low Energy for easy configuration.
+	</Card>
+	<Card title="Open Source" icon="github">
+		Firmware is fully open source. Build your own, modify it, or contribute improvements.
+	</Card>
+</CardGrid>
+
+## Quick Links
+
+<CardGrid>
+	<Card title="Hardware Requirements" icon="setting">
+		See what components you need to build your own BlinQR device.
+		[View Requirements →](/getting-started/hardware/)
+	</Card>
+	<Card title="Build the Firmware" icon="rocket">
+		Step-by-step guide to compile and flash the firmware.
+		[Build Guide →](/firmware/building/)
+	</Card>
+	<Card title="BLE Protocol" icon="document">
+		Technical specification for the Bluetooth communication protocol.
+		[View Protocol →](/protocol/ble-specification/)
+	</Card>
+	<Card title="Contribute" icon="heart">
+		Learn how to contribute to the BlinQR project.
+		[How to Contribute →](/contributing/how-to-contribute/)
+	</Card>
+</CardGrid>
